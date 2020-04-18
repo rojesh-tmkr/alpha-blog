@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>HomePage</title>
-    <style>
-      body{
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>About Alpha Blog</h1>
-    <div>
-      <%= image_tag 'about.jpg' %>
-    </div>
-    <div>
-      <p>This is the About page of Alpha Blog</p>
-    </div>
-    <button><%= link_to 'HomePage', root_path %></button>
-  </body>
-</html>
+<div style="text-align: center;">
+  <h1>About Alpha Blog</h1>
+      
+  <div>
+    <%= image_tag 'about.jpg' %>
+  </div>
+  <div>
+    <p>This is the About page of Alpha Blog</p>
+  </div>
+
+  <button><%= link_to 'HomePage', root_path %></button>
+</div>

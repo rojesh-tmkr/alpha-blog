@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>HomePage</title>
-    <style>
-      body{
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Alpha Blog</h1>
-    <div>
-      <%= image_tag 'alpha-blog.jpg' %>
-    </div>
-    <div>
-      <p>The Alpha Blog is the first application to be developed on Ruby on rails as the part of the learning process.</p>
-    </div>
-    <button><%= link_to 'About', about_path %></button>
-  </body>
-</html>
+<div style="text-align: center;">
+  <h1>Alpha Blog HomePage</h1>
+      
+  <div>
+    <%= image_tag 'alpha-blog.jpg' %>
+  </div>
+  <div>
+    <p>The Alpha Blog is the first application to be developed on Ruby on rails as the part of the learning process.</p>
+  </div>
+
+  <button><%= link_to 'Alpha Blog', articles_path %></button>
+  <button><%= link_to 'About', about_path %></button>
+</div>
