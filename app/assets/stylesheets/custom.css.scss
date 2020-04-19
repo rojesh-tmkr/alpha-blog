@@ -22,9 +22,16 @@
 }
 
 .jumbotron {
-  background-image: asset-url('alpha-blog.jpg');
   background-size: cover;
   height: 550px;
+}
+
+.homepage {
+  background-image: asset-url('alpha-blog.jpg');
+}
+
+.aboutpage {
+  background-image: asset-url('about.jpg');
 }
 
 .jumbotron h1 {
@@ -36,7 +43,7 @@
 }
 
 .article-actions {
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #878787;
   padding-top: 5px;
 }
 
@@ -50,7 +57,7 @@
 }
 
 .article-body {
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #878787;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -58,7 +65,7 @@
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #878787;
   color: #777;
 }
 
