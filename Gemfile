@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'puma', '~> 3.11'
 
 gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
